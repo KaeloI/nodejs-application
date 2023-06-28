@@ -5,7 +5,12 @@
   "main": "app.js",
   "publishConfig": {
     "registry": "http://34.204.36.42:8181/repository/ebay-npm-repo/"
+
+    npm login --registry=NexusRepoURL
   },
+
+npm login --registry=NexusRepoURL
+  
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
